@@ -1,0 +1,220 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To Add a staff into the system \u0026 fee collection",
+        "description": "",
+        "id": "to-add-a-staff-into-the-system-\u0026-fee-collection;to-add-a-staff-into-the-system-\u0026-fee-collection",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9050115700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Launch the browser and Maximize the window",
+            "match": {
+              "location": "ScenarioClass.to_Launch_the_browser_and_Maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5139976500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the Url of application",
+            "match": {
+              "location": "ScenarioClass.to_launch_the_Url_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2479757900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To Login to the application using given credentials",
+            "match": {
+              "location": "ScenarioClass.to_Login_to_the_application_using_given_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38383937600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Go to ‘Staff Profile Management’ menu and open ‘Staff Add’",
+            "match": {
+              "location": "ScenarioClass.go_to_Staff_Profile_Management_menu_and_open_Staff_Add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12576218800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To Enter all mandatory fields in \u0027Personal Details\u0027 section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Personal Details\u0027",
+                  "offset": 33
+                }
+              ],
+              "location": "ScenarioClass.to_Enter_all_mandatory_fields_in_section(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297683000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click ‘Save’ button, will add a new staff with the data entered",
+            "match": {
+              "location": "ScenarioClass.to_click_Save_button_will_add_a_new_staff_with_the_data_entered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9166162000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To Go to ‘Fee Configuration’ menu, you will land on ‘Fee Collection’",
+            "match": {
+              "location": "ScenarioClass.to_Go_to_Fee_Configuration_menu_you_will_land_on_Fee_Collection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4850879300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To Enter ‘200011312’ into the ‘Global Student Search’ box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200011312",
+                  "offset": 10
+                }
+              ],
+              "location": "ScenarioClass.to_Enter_into_the_Global_Student_Search_box(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1421321900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To search",
+            "match": {
+              "location": "ScenarioClass.to_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To Select one pending invoice under ‘Payable’ -\u003e ‘Pending Invoice’ section",
+            "match": {
+              "location": "ScenarioClass.to_Select_one_pending_invoice_under_Payable_Pending_Invoice_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14967881000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To choose the ‘Payment Mode’ under ‘Payments’(bottom left)",
+            "match": {
+              "location": "ScenarioClass.to_choose_the_Payment_Mode_under_Payments_bottom_left()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483880000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To Click on ‘Pay’ button(bottom right),",
+            "match": {
+              "location": "ScenarioClass.to_Click_on_Pay_button_bottom_right()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To Make sure that the payment has been completed successfully",
+            "match": {
+              "location": "ScenarioClass.to_Make_sure_that_the_payment_has_been_completed_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1461545000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "ScenarioClass.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature11"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To Add a staff into the system \u0026 fee collection",
+    "description": "",
+    "id": "to-add-a-staff-into-the-system-\u0026-fee-collection",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scenarioss1.feature",
+    "tags": [
+      {
+        "name": "@feature11",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

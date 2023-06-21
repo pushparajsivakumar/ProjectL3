@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="100.296988">
+<testcase classname="To Add a staff into the system &amp; fee collection" name="To Add a staff into the system &amp; fee collection" time="100.296988">
+<system-out><![CDATA[Given To Launch the browser and Maximize the window.........................passed
+When To launch the Url of application.......................................passed
+And To Login to the application using given credentials.....................passed
+And Go to ‘Staff Profile Management’ menu and open ‘Staff Add’..............passed
+And To Enter all mandatory fields in 'Personal Details' section.............passed
+And To click ‘Save’ button, will add a new staff with the data entered......passed
+And To Go to ‘Fee Configuration’ menu, you will land on ‘Fee Collection’....passed
+And To Enter ‘200011312’ into the ‘Global Student Search’ box...............passed
+And To search...............................................................passed
+And To Select one pending invoice under ‘Payable’ -> ‘Pending Invoice’ section.passed
+And To choose the ‘Payment Mode’ under ‘Payments’(bottom left)..............passed
+And To Click on ‘Pay’ button(bottom right),.................................passed
+And To Make sure that the payment has been completed successfully...........passed
+Then To close the chrome browser............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
